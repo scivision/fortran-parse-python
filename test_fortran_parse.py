@@ -122,7 +122,7 @@ def test_use(code, ok):
     """
     verifies that submodule syntax is OK
     """
-    pat = m0510['use']
+    pat = mnext['use']
     cpat = re.compile(pat, re.IGNORECASE)
     match = cpat.match(code)
     name = match.group(1).lower()
