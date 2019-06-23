@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/193343910.svg)](https://zenodo.org/badge/latestdoi/193343910)
+
 [![Build Status](https://travis-ci.com/scivision/fortran-parse-python.svg?branch=master)](https://travis-ci.com/scivision/fortran-parse-python)
 [![Coverage Status](https://coveralls.io/repos/github/scivision/fortran-parse-python/badge.svg?branch=master)](https://coveralls.io/github/scivision/fortran-parse-python?branch=master)
 
@@ -13,7 +15,7 @@ or
 
 We use case-insensitive regex and scan each Fortran file for syntax concerning statements
 
-* use: including Fortran 2003 `non-intrinsic` parameter
+* use: including Fortran 2003 `non_intrinsic` [parameter](https://www.ibm.com/support/knowledgecenter/en/SS3KZ4_9.0.0/com.ibm.xlf111.bg.doc/xlflr/use.htm)
 * module (ignoring module procedure|function|subroutine and variants)
 * submodule including (ancestor:parent)
 * include|#include
